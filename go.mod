@@ -8,7 +8,7 @@ require (
 	github.com/NYTimes/gziphandler v1.1.1
 	github.com/alicebob/miniredis/v2 v2.23.0
 	github.com/aquasecurity/bolt-fixtures v0.0.0-20200903104109-d34e7f983986
-	github.com/aquasecurity/defsec v0.82.0
+	github.com/aquasecurity/defsec v0.82.6
 	github.com/aquasecurity/go-dep-parser v0.0.0-20221024082335-60502daef4ba
 	github.com/aquasecurity/go-gem-version v0.0.0-20201115065557-8eed6fe000ce
 	github.com/aquasecurity/go-npm-version v0.0.0-20201110091526-0b796d180798
@@ -21,8 +21,8 @@ require (
 	github.com/aquasecurity/tml v0.6.1
 	github.com/aquasecurity/trivy-db v0.0.0-20220627104749-930461748b63
 	github.com/aquasecurity/trivy-kubernetes v0.3.1-0.20221021174315-8d74450b4506
-	github.com/aws/aws-sdk-go v1.44.114
-	github.com/aws/aws-sdk-go-v2 v1.16.16
+	github.com/aws/aws-sdk-go v1.44.131
+	github.com/aws/aws-sdk-go-v2 v1.17.1
 	github.com/aws/aws-sdk-go-v2/config v1.17.8
 	github.com/aws/aws-sdk-go-v2/service/sts v1.16.19
 	github.com/caarlos0/env/v6 v6.10.1
@@ -56,7 +56,7 @@ require (
 	github.com/package-url/packageurl-go v0.1.1-0.20220203205134-d70459300c8a
 	github.com/samber/lo v1.28.2
 	github.com/secure-systems-lab/go-securesystemslib v0.4.0
-	github.com/sigstore/rekor v1.0.0
+	github.com/sigstore/rekor v0.2.0
 	github.com/sosedoff/gitkit v0.3.0
 	github.com/spf13/cobra v1.6.0
 	github.com/spf13/pflag v1.0.5
@@ -80,8 +80,8 @@ require (
 	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.4.8 // indirect
 	github.com/aws/aws-sdk-go-v2/credentials v1.12.21 // indirect
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.12.17 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/configsources v1.1.23 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.4.17 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/configsources v1.1.25 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.4.19 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/ini v1.3.24 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/v4a v1.0.14 // indirect
 	github.com/aws/aws-sdk-go-v2/service/accessanalyzer v1.16.0 // indirect
@@ -97,14 +97,14 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/dynamodb v1.17.1 // indirect
 	github.com/aws/aws-sdk-go-v2/service/ec2 v1.63.1 // indirect
 	github.com/aws/aws-sdk-go-v2/service/ecr v1.17.18 // indirect
-	github.com/aws/aws-sdk-go-v2/service/ecs v1.18.23 // indirect
+	github.com/aws/aws-sdk-go-v2/service/ecs v1.18.26 // indirect
 	github.com/aws/aws-sdk-go-v2/service/efs v1.17.15 // indirect
 	github.com/aws/aws-sdk-go-v2/service/eks v1.22.1 // indirect
 	github.com/aws/aws-sdk-go-v2/service/elasticache v1.22.10 // indirect
 	github.com/aws/aws-sdk-go-v2/service/elasticloadbalancingv2 v1.18.20 // indirect
 	github.com/aws/aws-sdk-go-v2/service/elasticsearchservice v1.16.10 // indirect
 	github.com/aws/aws-sdk-go-v2/service/emr v1.20.11 // indirect
-	github.com/aws/aws-sdk-go-v2/service/iam v1.18.19 // indirect
+	github.com/aws/aws-sdk-go-v2/service/iam v1.18.23 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.9.9 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/checksum v1.1.18 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/endpoint-discovery v1.7.17 // indirect
@@ -112,9 +112,9 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/internal/s3shared v1.13.17 // indirect
 	github.com/aws/aws-sdk-go-v2/service/kafka v1.17.19 // indirect
 	github.com/aws/aws-sdk-go-v2/service/kinesis v1.15.19 // indirect
-	github.com/aws/aws-sdk-go-v2/service/kms v1.18.11 // indirect
+	github.com/aws/aws-sdk-go-v2/service/kms v1.18.15 // indirect
 	github.com/aws/aws-sdk-go-v2/service/lambda v1.24.6 // indirect
-	github.com/aws/aws-sdk-go-v2/service/mq v1.13.13 // indirect
+	github.com/aws/aws-sdk-go-v2/service/mq v1.13.15 // indirect
 	github.com/aws/aws-sdk-go-v2/service/neptune v1.17.12 // indirect
 	github.com/aws/aws-sdk-go-v2/service/rds v1.26.1 // indirect
 	github.com/aws/aws-sdk-go-v2/service/redshift v1.26.10 // indirect
@@ -125,7 +125,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/sso v1.11.23 // indirect
 	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.13.6 // indirect
 	github.com/aws/aws-sdk-go-v2/service/workspaces v1.23.0 // indirect
-	github.com/aws/smithy-go v1.13.3 // indirect
+	github.com/aws/smithy-go v1.13.4 // indirect
 	github.com/emicklei/go-restful/v3 v3.8.0 // indirect
 	github.com/go-openapi/analysis v0.21.4 // indirect
 	github.com/go-openapi/errors v0.20.3 // indirect
@@ -144,6 +144,7 @@ require (
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/shibumi/go-pathspec v1.3.0 // indirect
 	github.com/tchap/go-patricia/v2 v2.3.1 // indirect
+	go.etcd.io/etcd/api/v3 v3.5.4 // indirect
 	go.mongodb.org/mongo-driver v1.10.0 // indirect
 	gonum.org/v1/gonum v0.7.0 // indirect
 )
@@ -163,7 +164,7 @@ require (
 	github.com/Azure/go-autorest/autorest/date v0.3.0 // indirect
 	github.com/Azure/go-autorest/logger v0.2.1 // indirect
 	github.com/Azure/go-autorest/tracing v0.6.0 // indirect
-	github.com/BurntSushi/toml v1.2.0 // indirect
+	github.com/BurntSushi/toml v1.2.1 // indirect
 	github.com/GoogleCloudPlatform/docker-credential-gcr v2.0.5+incompatible
 	github.com/MakeNowJust/heredoc v1.0.0 // indirect
 	github.com/Masterminds/goutils v1.1.1 // indirect
@@ -358,11 +359,11 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gotest.tools v2.2.0+incompatible
 	gotest.tools/v3 v3.2.0 // indirect
-	helm.sh/helm/v3 v3.10.0 // indirect
+	helm.sh/helm/v3 v3.10.1 // indirect
 	k8s.io/api v0.25.3 // indirect
-	k8s.io/apiextensions-apiserver v0.25.0 // indirect
+	k8s.io/apiextensions-apiserver v0.25.2 // indirect
 	k8s.io/apimachinery v0.25.3 // indirect
-	k8s.io/apiserver v0.25.0 // indirect
+	k8s.io/apiserver v0.25.2 // indirect
 	k8s.io/cli-runtime v0.25.3 // indirect
 	k8s.io/client-go v0.25.3 // indirect
 	k8s.io/component-base v0.25.3 // indirect
