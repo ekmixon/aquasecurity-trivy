@@ -56,7 +56,7 @@ require (
 	github.com/package-url/packageurl-go v0.1.1-0.20220203205134-d70459300c8a
 	github.com/samber/lo v1.28.2
 	github.com/secure-systems-lab/go-securesystemslib v0.4.0
-	github.com/sigstore/rekor v1.0.0
+	github.com/sigstore/rekor v0.2.0
 	github.com/sosedoff/gitkit v0.3.0
 	github.com/spf13/cobra v1.6.0
 	github.com/spf13/pflag v1.0.5
@@ -310,7 +310,7 @@ require (
 	github.com/rivo/uniseg v0.2.0 // indirect
 	github.com/rubenv/sql-migrate v1.1.2 // indirect
 	github.com/russross/blackfriday v1.6.0 // indirect
-	github.com/saracen/walker v0.0.0-20191201085201-324a081bae7e
+	github.com/saracen/walker v0.1.3
 	github.com/sergi/go-diff v1.1.0 // indirect
 	github.com/shogo82148/go-shuffle v0.0.0-20170808115208-59829097ff3b // indirect
 	github.com/shopspring/decimal v1.2.0 // indirect
