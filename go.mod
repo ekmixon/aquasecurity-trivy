@@ -56,7 +56,7 @@ require (
 	github.com/package-url/packageurl-go v0.1.1-0.20220203205134-d70459300c8a
 	github.com/samber/lo v1.28.2
 	github.com/secure-systems-lab/go-securesystemslib v0.4.0
-	github.com/sigstore/rekor v1.0.0
+	github.com/sigstore/rekor v0.2.0
 	github.com/sosedoff/gitkit v0.3.0
 	github.com/spf13/cobra v1.6.0
 	github.com/spf13/pflag v1.0.5
@@ -335,16 +335,16 @@ require (
 	go.starlark.net v0.0.0-20200306205701-8dd3e2ee1dd5 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
 	go.uber.org/multierr v1.8.0 // indirect
-	golang.org/x/crypto v0.1.0
-	golang.org/x/mod v0.6.0
-	golang.org/x/net v0.1.0 // indirect
+	golang.org/x/crypto v0.13.0
+	golang.org/x/mod v0.21.0
+	golang.org/x/net v0.15.0 // indirect
 	golang.org/x/oauth2 v0.1.0 // indirect
-	golang.org/x/sync v0.1.0
-	golang.org/x/sys v0.1.0 // indirect
-	golang.org/x/term v0.1.0
-	golang.org/x/text v0.4.0
+	golang.org/x/sync v0.3.0
+	golang.org/x/sys v0.12.0 // indirect
+	golang.org/x/term v0.12.0
+	golang.org/x/text v0.13.0
 	golang.org/x/time v0.0.0-20220609170525-579cf78fd858 // indirect
-	golang.org/x/tools v0.2.0 // indirect
+	golang.org/x/tools v0.13.0 // indirect
 	google.golang.org/api v0.98.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20221018160656-63c7b68cfc55 // indirect
