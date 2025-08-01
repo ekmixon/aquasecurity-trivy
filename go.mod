@@ -1,6 +1,6 @@
 module github.com/aquasecurity/trivy
 
-go 1.19
+go 1.24
 
 require (
 	github.com/CycloneDX/cyclonedx-go v0.6.0
@@ -11,7 +11,7 @@ require (
 	github.com/aquasecurity/defsec v0.82.0
 	github.com/aquasecurity/go-dep-parser v0.0.0-20221024082335-60502daef4ba
 	github.com/aquasecurity/go-gem-version v0.0.0-20201115065557-8eed6fe000ce
-	github.com/aquasecurity/go-npm-version v0.0.0-20201110091526-0b796d180798
+	github.com/aquasecurity/go-npm-version v0.0.2
 	github.com/aquasecurity/go-pep440-version v0.0.0-20210121094942-22b2f8951d46
 	github.com/aquasecurity/go-version v0.0.0-20210121072130-637058cfe492
 	github.com/aquasecurity/loading v0.0.5
